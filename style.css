@@ -51,8 +51,6 @@ body {
 
 .my_avatar {
     position: relative;
-    width: 35px;
-    height: 35px;
     border-radius: 50px;
     background-color: #ffc107;
 }
@@ -94,7 +92,12 @@ body {
     width: 100%;
     height: 64px;
     padding: 8px;
-    
+    cursor: pointer;
+}
+
+.user:hover {
+    transition: 0.5s;
+    background-color: #008d5f;
 }
 
 .line {
@@ -107,10 +110,18 @@ body {
 
 .user_avatar {
     position: relative;
-    width: 60px;
-    height: 60px;
     border-radius: 50px;
     background-color: #ffc107;
+}
+
+.user_avatar_small {
+    width: 35px;
+    height: 35px;
+}
+
+.user_avatar_big {
+    width: 60px;
+    height: 60px;
 }
 
 .status {
@@ -156,6 +167,7 @@ body {
 }
 
 .messages {
+    width: 100%;
     overflow-y: scroll;
 }
 
