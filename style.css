@@ -181,7 +181,7 @@ body {
 }
 
 .message_text {
-    max-width: calc(100% - 250px);
+    max-width: calc(100% - 120px);
     color: #FFF;
     padding: 8px;
     background-color: #007968;
@@ -189,7 +189,7 @@ body {
 }
 
 .message_metric {
-    width: 130px;
+    width: 70px;
 }
 
 .message_send {
@@ -208,4 +208,10 @@ body {
 
 .message_submit {
     width: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        height: calc(100vh - 124px);
+    }
 }
